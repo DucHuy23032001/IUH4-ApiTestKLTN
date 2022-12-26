@@ -27,10 +27,10 @@ console.log("Chưa kết nối account router");
 app.use('/api/v3/accounts', accountRouter);
 console.log("Đã kết nối account router");
 // handle undefined Routes
-app.use('*', (req, res, next) => {
-    const err = new AppError(404, 'fail', 'undefined route');
-    next(err, req, res, next);
-});
+// app.use('*', (req, res, next) => {
+//     const err = new AppError(404, 'fail', 'undefined route');
+//     next(err, req, res, next);
+// });
 console.log("Huy 3");
 
 // app.use(globalErrHandler);
