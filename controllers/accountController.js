@@ -1,8 +1,6 @@
-console.log("1");
 const Account  = require("../models/account")
-console.log("a");
 const bcrypt = require("bcrypt");
-console.log("a");
+
 // //Oke
 // exports.forgetPassWord = async (req, res, next) => {
 //     try {

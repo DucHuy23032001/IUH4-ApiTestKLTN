@@ -1,10 +1,6 @@
-console.log("a");
 const mongoose = require('mongoose');
-console.log("a");
 const bcrypt = require('bcrypt')
 const Schema = mongoose.Schema;
-
-console.log("a");
 
 const accountSchema = new Schema({
     phoneNumber:{
